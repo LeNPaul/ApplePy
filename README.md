@@ -17,4 +17,5 @@ There are plans to do a complete rebuild of this project, from the ground up. Dj
 * Phase 1:
   * Build django web framework.
   * Build a basic GUI for the application.
-
+* Phase 2:
+  * Run physical simulations on the backend, and display visualizations on the web application.
