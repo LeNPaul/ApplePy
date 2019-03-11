@@ -10,7 +10,7 @@ So far, this program is able to do basic n-body simulations, using the Euler met
 
 ### Current Progress
 
-There are plans to do a complete rebuild of this project, from the ground up. Django will be the web framework used on the backend.
+There are plans to do a complete rebuild of this project, from the ground up. Django will be the web framework used on the backend. Potentially build a physics simulation visualization tool, or potentially integrate with Physics in Motion.
 
 ### Project Timeline
 
