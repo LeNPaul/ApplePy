@@ -10,12 +10,12 @@ So far, this program is able to do basic n-body simulations, using the Euler met
 
 ### Current Progress
 
-There are plans to do a complete rebuild of this project, from the ground up. Django will be the web framework used on the backend. Potentially build a physics simulation visualization tool, or potentially integrate with Physics in Motion.
+There are plans to do a complete rebuild of this project, from the ground up. Flask will be the web framework used on the backend, and Vue.js is the frontend framework. Potentially build a physics simulation visualization tool, or potentially integrate with Physics in Motion.
 
 ### Project Timeline
 
 * Phase 1:
-  * Build django web framework.
-  * Build a basic GUI for the application.
+  * Build Flask web framework.
+  * Build a basic GUI for the application using Vue.js
 * Phase 2:
   * Run physical simulations on the backend, and display visualizations on the web application.
