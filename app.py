@@ -2,8 +2,12 @@ from flask import Flask
 from flask import render_template
 app = Flask(__name__)
 
+from random import randint
+
 @app.route('/')
-@app.route('/<name>')
-def hello(name=None):
-    value = 100 * 1234
-    return render_template('index.html', name=value)
+def index():
+    return render_template('index.html')
+
+@app.route('/random')
+def calculate():
+    return str(randint(0,20))
