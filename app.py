@@ -15,3 +15,7 @@ def random(size):
     for x in range(0, int(size)):
         randList.append(randint(0,20))
     return jsonify(randList)
+
+@app.route('/gravity/<distance>')
+def gravity(distance):
+    return  jsonify(1 * 10 * 10 / float(distance)**2)
